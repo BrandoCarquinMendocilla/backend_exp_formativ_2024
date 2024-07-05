@@ -1,0 +1,34 @@
+{
+  "name": "prestamo_cibertec",
+  "version": "1.0.0",
+  "description": "Backend de servicios de prestamos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Brando Javier Carquin Mendocilla",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "emailjs": "^4.0.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.3.0",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "otp-generator": "^4.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.11.5",
+    "rate-limiter-flexible": "^5.0.0",
+    "request-promise-native": "^1.0.9",
+    "uuid": "^9.0.1"
+  }
+}
